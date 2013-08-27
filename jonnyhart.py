@@ -27,6 +27,15 @@ class Portfolio(Parent):
 			if self.request_data.action == "concept-art":
 				return self.render.concept(self.header, self.footer)
 
+			elif self.request_data.action =="whiteboard":
+				return self.render.whiteboard(self.header, self.footer)
+
+			elif self.request_data.action =="video":
+				return self.render.video(self.header, self.footer)
+
+			elif self.request_data.action =="websites":
+				return self.render.websites(self.header, self.footer)
+
 			else:
 				return self.render.portfolio(self.header, self.footer)
 
@@ -40,7 +49,17 @@ class About(Parent):
 
 class Services(Parent):
 	def GET(self):
-		return self.render.services(self.header, self.footer)
+		action=""
+		if self.request_data:
+			if self.request_data.action=="contact":
+				return self.render.contact(self.header, self.footer)
+
+			else:
+				return self.render.services(self.header, self.footer)
+		
+		else:
+			return self.render.services(self.header, self.footer)
+
 
 if __name__ == '__main__':
 	app = web.application(urls, globals())
