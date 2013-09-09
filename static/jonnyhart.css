@@ -8,14 +8,30 @@
 
 }
 .home-container{
-	margin-top: 40px;
+	margin-top: 100px;
 	height:100%;
 	background-image: url('/static/img/desk.jpg');
 	background-size: 60%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.entry{
+	margin: 5% 20% 5% 20%;
+	font-family: "Licida Sans Unicode", sans-serif;
+	text-align: center;
+	letter-spacing: .1em;
+}
+.websites{
+	text-align: center;
+}
+.websites li{
+	margin:20px;
+	display:inline-block;
 
+}
+.websites a:hover img{
+	box-shadow: black .2em .2em .2em;
+}
 .main{
 	margin-top:17%;
 	margin-left:28%;

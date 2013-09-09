@@ -36,6 +36,9 @@ class Portfolio(Parent):
 			elif self.request_data.action =="websites":
 				return self.render.websites(self.header, self.footer)
 
+			elif self.request_data.action =="illustration":
+				return self.render.illustration(self.header, self.footer)
+				
 			else:
 				return self.render.portfolio(self.header, self.footer)
 
