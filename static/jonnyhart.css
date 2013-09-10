@@ -24,6 +24,7 @@
 .websites{
 	text-align: center;
 }
+
 .websites li{
 	margin:20px;
 	display:inline-block;
@@ -31,6 +32,7 @@
 }
 .websites a:hover img{
 	box-shadow: black .2em .2em .2em;
+	opacity: 1.0;
 }
 .main{
 	margin-top:17%;
@@ -202,29 +204,29 @@ v-line3 {
 	
 }
 .pics{
-	margin:200px 100px 0px 150px;
-
+	margin:15% 10% 10% 10%;
+	
+	
 }
 .pics img{
-	margin-top: 0px;
-	height:200px;
+	height:150px;
 	padding:10px;
 	background-color: #E9E5E5;
 	border:solid thin gray;
 	border-radius:5px;
-
-	
-	
 }
+
 .pics li{
 	display: inline-block;
+	margin-left: 15%;
+
 }
 
 .a{
-	width:250px;
-	margin-left: 20px;
+	width:200px;
 	display:inline-block;
-	margin-top: 50px;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .a li:hover{
