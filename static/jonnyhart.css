@@ -28,12 +28,13 @@
 .websites li{
 	margin:20px;
 	display:inline-block;
-
 }
+
 .websites a:hover img{
 	box-shadow: black .2em .2em .2em;
 	opacity: 1.0;
 }
+
 .main{
 	margin-top:17%;
 	margin-left:28%;
@@ -49,10 +50,12 @@
 	font-family: "Licida Sans Unicode", sans-serif;
 	letter-spacing: .2em;
 }
+
 #headerlinks a{
 	color:black;
 	text-decoration: none;
 }
+
 #nav1{
 	position:absolute;
 	left:15%;
